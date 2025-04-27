@@ -1,0 +1,15 @@
+h1 {
+  color: rgb(0, 139, 107);
+}
+body {
+  font-family: "Winky Sans", sans-serif;
+  background-color: rgb(red, green, blue);
+}
+
+#threeInOne {
+  text-align: center;
+}
+
+#threeInOne ol {
+  list-style-type: none;
+}
