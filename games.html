@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .game-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 60px;
+      }
+      .game-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+      }
+      .game-item img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 20px;
+        border: 2px solid #ccc;
+        background: #eee;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+      .game-item img:hover {
+        transform: scale(1.05);
+        border-color: #0078d7;
+      }
+      .game-title {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; margin-top: 30px">Game Menu</h1>
+    <div class="game-menu">
+      <div class="game-item">
+        <a href="pacman.html">
+          <img src="https://www.pintrill.com/cdn/shop/files/ready_logo_pvcmagnet_offcard_d0f3c77b-a6b8-4b2d-8e8c-06ff797a630f.jpg?v=1718912147" alt="Pacman (placeholder)" />
+        </a>
+        <div class="game-title">Pacman</div>
+      </div>
+      <div class="game-item">
+        <a href="snake.html">
+          <img src="snek.png" alt="Snake Game (placeholder)" />
+        </a>
+        <div class="game-title">Snake Game</div>
+      </div>
+
+      
+  </body>
+</html>
